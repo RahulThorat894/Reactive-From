@@ -1,0 +1,91 @@
+.rahul
+{
+ margin: 0;
+margin-top: 0;
+padding: 0;
+background-image: url(../../assets/background.png);
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+height: 500px;
+width: 100%;
+}
+*
+{
+    
+    box-sizing: border-box;
+    
+}
+body
+{
+    margin: 0;
+    
+    font-family: 'Roboto',sans-serif;
+    background: #ececec;
+    text-align: center;
+
+}
+.login
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 450;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px --10px 15px #fff;
+}
+.login img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 12px #c7c4c4, -6px 12px #fff;
+
+}
+.login h1
+{
+    font-size: 36px;
+    color: #999;
+    margin-top: 5px;
+}
+.login input
+{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 25px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    background: #ececec;
+    box-shadow: inset 10px 10px 15px #c7c4c4,inset -10px -10px 15px #fff;
+
+}
+.login button
+{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #999;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}   
+
+.login span
+{
+color: #999;
+font-size: 16px;
+display: block;
+
+}
+.login span a
+{
+    text-decoration: none;
+    color: blue;
+
+}
